@@ -29,7 +29,20 @@ Buka file main.dart lalu tambahkan di dalam children: pada class _MyHomePageStat
 # Tugas Praktikum 
 1. Selesaikan Praktikum tersebut, lalu dokumentasikan dan push ke repository Anda berupa screenshot hasil pekerjaan beserta penjelasannya di file README.md!
 2. Jelaskan maksud dari langkah 2 pada praktikum tersebut!
+   **jawab:**
+   Sintaks flutter pub add auto_size_text digunakan untuk secara otomatis menambahkan paket Flutter bernama "auto_size_text" ke dalam proyek ini.
 3. Jelaskan maksud dari langkah 5 pada praktikum tersebut!
+   **jawab:**
+   Terjadi error pada Langkah 4 karena perubahan yang dilakukan pada red_text_widget.dart memerlukan beberapa perubahan tambahan dalam proyek yaitu kita perlu mengimpor paket auto_size_text ke dalam berkas red_text_widget.dart agar Anda dapat menggunakan komponen-komponen dari paket tersebut dan juga diperlukan untuk menambahkan variabel text di constructor.
 4. Pada langkah 6 terdapat dua widget yang ditambahkan, jelaskan fungsi dan perbedaannya!
+   **jawab:**
+   - **RedTextWidget:**<br>
+     **Fungsi :** Fungsinya adalah untuk menampilkan teks dengan warna merah dan menggunakan fitur auto-sizing (mengubah ukuran teks sesuai dengan ruang yang tersedia).<br>
+**Perbedaan :** Widget ini khusus dibuat untuk menampilkan teks dengan gaya dan perilaku tertentu, yaitu dengan warna merah, pembatasan maksimal dua baris, dan menggunakan auto-sizing untuk memastikan teks sesuai dengan ruang yang tersedia.
+    - **Text Widget:**<br>
+      **Fungsi :** Widget Text adalah widget bawaan Flutter yang digunakan untuk menampilkan teks statis. Dalam proyek ini, widget Text digunakan untuk menampilkan teks yang sama dengan yang ditampilkan oleh RedTextWidget, tetapi tanpa gaya khusus atau perilaku auto-sizing.<br>
+**Perbedaan :** Widget Text adalah widget dasar yang digunakan untuk menampilkan teks tanpa pengaturan gaya atau perilaku khusus. Kita dapat menambahkan teks apa pun ke dalamnya, tetapi tidak ada perubahan ukuran atau gaya tertentu yang diatur secara otomatis.
 5. Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text berdasarkan tautan pada dokumentasi ini !
+   **jawab:**
+   
 6. Kumpulkan laporan praktikum Anda berupa link repository GitHub ke spreadsheet yang telah disediakan!
