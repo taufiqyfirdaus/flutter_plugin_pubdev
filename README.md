@@ -44,5 +44,12 @@ Buka file main.dart lalu tambahkan di dalam children: pada class _MyHomePageStat
 **Perbedaan :** Widget Text adalah widget dasar yang digunakan untuk menampilkan teks tanpa pengaturan gaya atau perilaku khusus. Kita dapat menambahkan teks apa pun ke dalamnya, tetapi tidak ada perubahan ukuran atau gaya tertentu yang diatur secara otomatis.
 5. Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text berdasarkan tautan pada dokumentasi ini !
    **jawab:**
-   
+   - **text (String):**
+     Parameter ini adalah teks yang akan ditampilkan oleh AutoSizeText. Ini adalah teks yang akan disesuaikan ukurannya sesuai dengan ruang yang tersedia.
+   - **style (TextStyle):**
+     Parameter ini digunakan untuk mengatur gaya teks seperti warna, ukuran font, tebal, dan sebagainya. Dalam contoh yang Anda berikan, warna teks diatur menjadi merah dengan ukuran font 14.
+   - **maxLines (int):**
+     Parameter ini digunakan untuk membatasi jumlah baris maksimal yang akan ditampilkan oleh AutoSizeText. Jika teks melebihi jumlah baris yang ditentukan, teks akan dipotong dengan "..." (elipsis).
+   - **overflow (TextOverflow):**
+     Parameter ini digunakan untuk menentukan bagaimana teks yang melebihi jumlah baris maksimal (maxLines) akan ditampilkan. TextOverflow.ellipsis digunakan dalam contoh Anda, yang berarti teks yang melewati batas akan ditampilkan dengan elipsis ("...").
 6. Kumpulkan laporan praktikum Anda berupa link repository GitHub ke spreadsheet yang telah disediakan!
